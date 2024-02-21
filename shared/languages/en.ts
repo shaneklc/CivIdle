@@ -1,6 +1,6 @@
 export const EN = {
    CurrentLanguage: "English",
-   TranslatorCredit: "<Put Your Name Here>",
+   TranslatorCredit: "Shane",
    Translators: "Translators",
    Language: "Language",
    TechnologyPrerequisite: "Prerequisites",
@@ -35,7 +35,7 @@ export const EN = {
    Gold: "Gold",
    PreciousMetal: "Precious Metal",
    Market: "Market",
-   MarketDesc: "Exchange an resource to another, available resources update every hour",
+   MarketDesc: "Exchange a resource to another, available resources update every hour",
    CityState: "City State",
    Literature: "Literature",
    Machinery: "Machinery",
@@ -502,7 +502,7 @@ export const EN = {
    ChoghaZanbilDesc: "Chogha Zanbil",
    HatshepsutTemple: "Hatshepsut Temple",
    HatshepsutTempleDesc:
-      "Reveal all water tiles on the map when completed. Wheat Farms get +1 Production Multiplier for each adjacent water tile",
+      "Reveals all water tiles on the map when completed. Wheat Farms get +1 Production Multiplier for each adjacent water tile",
    LuxorTemple: "Luxor Temple",
    LuxorTempleDesc: "+1 Science From Busy Workers",
    Neuschwanstein: "Neuschwanstein",
@@ -537,13 +537,13 @@ export const EN = {
    StockpileMaxUnlimited: "Unlimited",
    StockpileMaxDesc:
       "This building will stop transporting a resource once there are enough for %{cycle} production cycles",
-   StockpileMaxUnlimitedDesc: "The building will never stop transporting resources until the storage is full",
+   StockpileMaxUnlimitedDesc: "This building will only stop transporting resources when the storage is full",
    ProductionPriority: "Production Priority",
    DefaultProductionPriority: "Default Production Priority",
    ConstructionPriority: "Construction Priority",
    DefaultConstructionPriority: "Default Construction Priority",
    DefaultUpgradePriority: "Default Upgrade Priority",
-   ProductionPriorityDesc: "High priority means the building transport before other buildings",
+   ProductionPriorityDesc: "High priority means this building transports resources before other buildings",
    TechProductionPriority: "Unlock building priority - allow setting production priority for each building",
    TechStockpileMode: "Unlock stockpile mode - allow adjusting stockpile for each building",
    ConstructionCost: "Construction Cost: %{cost}",
@@ -615,7 +615,7 @@ export const EN = {
    ChangePlayerHandle: "Change",
    ChangePlayerHandleCancel: "Cancel",
    ChangePlayerHandledDesc:
-      "Your player handle can only contain 5 ~ 16 alphabets and numbers and has to be unique",
+      "Your player handle must be unique, between 5 ~ 16 characters, and only contain letters and numbers",
    AGreatPersonIsBorn: "A Great Person Is Born",
    BuildingName: "Name",
    BuildingTier: "Tier",
@@ -703,7 +703,7 @@ export const EN = {
    PlayerMapTariff: "Tariff",
    PlayerMapSetYourTariff: "Set Your Tariff",
    PlayerMapTariffDesc:
-      "Every trade that goes through your tile will pay tariff to you. It's a balance: if you increase the tariff, the more you will gain from each trade, but fewer trade will go through your tile.",
+      "Every trade that goes through your tile will pay a tariff to you. It's a balance: if you increase the tariff, the more you will gain from each trade, but fewer trade will go through your tile.",
    PlayerMapTariffApply: "Apply Tariff Rate",
    PlayerMapTradesFrom: "Trades from %{name}",
    PlayerMapEstablishedSince: "Est. Since",
@@ -854,13 +854,13 @@ export const EN = {
    TrialRunDesc:
       "Quaestor or above can start a trial run that is subject to the Tribune limits and cannot earn permanent great people",
    Tutorial1:
-      "Welcome to CivIdle Setup.<br><br>In this game, you will run your own empire: manage productions, unlock technologies, trade resources with other players, create great people and build world wonders.<br><br>Drag your mouse to move around. Use scroll wheel to zoom in or out. Click an empty tile to build new buildings, click a building to inspect.<br><br>",
+      "Welcome to CivIdle Setup.<br><br>In this game, you will run your own empire: manage productions, unlock technologies, trade resources with other players, create great people and build world wonders.<br><br>Drag your mouse to move around. Use the scroll wheel to zoom in or out. Click an empty tile to build new buildings, click a building to inspect it.<br><br>",
    Tutorial2: "I haven't played similar games and I'd like to go through a quick tutorial",
    Tutorial3: "I have played Industry Idle and I know the drill, please skip the basic tutorial",
    Tutorial4:
-      "Buildings are the basic building block of your empire - place them on the explored map tiles. Certain buildings like Stone Quarries and Aqueducts that extract deposit need to be placed on a deposit tile. A building will lift the fog of its surrounding tiles.<br><br>Buildings consume resources and produce new ones. They will <b>automatically</b> transport needed resources. The produced resources will be stored in the buildings which can be transported into other buildings that need these resources. However, a building's storage space is limited.<br><br>Buildings need <b>workers</b> for transportation and production - you need to build residential buildings like <b>huts</b> to increase the worker population. You can upgrade a building to increase its production and storage.",
+      "Buildings are the basic building block of your empire - place them on the explored map tiles. Certain buildings like Stone Quarries and Aqueducts that extract deposits need to be placed on a deposit tile. A building will lift the fog of its surrounding tiles.<br><br>Buildings consume resources and produce new ones. They will <b>automatically</b> transport required resources. The produced resources will be stored in the building which can be transported into other buildings that need these resources. However, a building's storage space is limited.<br><br>Buildings need <b>workers</b> for transportation and production - you need to build residential buildings like <b>huts</b> to increase the worker population. You can upgrade a building to increase its production and storage.",
    Tutorial5:
-      "<b>Science</b> is used to unlock technologies in the tech tree. A technology unlocks new building, wonders and boosts.<br><br><b>Busy workers</b> generate a small amount of science. Later on, you will unlock buildings like libraries and schools that produce science.<br><br>The amount of workers available is affected by <b>happiness</b>. Each building will cost 1 happiness. And you gain happiness from technologies, wonders and great people. Make sure your workers are happy, otherwise your empire's production will halt.<br><br><b>Wonders</b> are one of a kind building - you can only build one and they cannot be removed once built. Wonders can provide significant boost or unlock new mechanisms.",
+      "<b>Science</b> is used to unlock technologies in the tech tree. A technology unlocks new buildings, wonders, and boosts.<br><br><b>Busy workers</b> generate a small amount of science. Later on, you will unlock buildings like libraries and schools that produce science.<br><br>The amount of workers available is affected by <b>happiness</b>. Each building will cost 1 happiness. And you gain happiness from technologies, wonders and great people. Make sure your workers are happy, otherwise your empire's production will halt.<br><br><b>Wonders</b> are a one of a kind building - you can only build one and they cannot be removed once built. Wonders can provide a significant boost or unlock new mechanisms.",
    Tutorial6:
       "When you enter a new age, a new <b>great person</b> will be born. You can choose one out of three candidates.<br><br>Great people provide boosts and will be added to your permanent collection. When you rebirth, you collect all the great people you've chosen this run, plus some  gone, these permanent great people will remain with you.<br><br><b>Permanent</b> great people can be upgraded by collecting great people from each run. They will help your empire achieve new heights. That's all the basics you need to know.<br><br>If you have questions, the best way to get help is by asking the <b>chat</b> - we have a friendly community that is always ready to help.",
    TutorialPlayerHandle: "Choose your player handle",
@@ -893,7 +893,7 @@ export const EN = {
    TribuneGreatPeopleLevelWarning:
       "Your current account rank is Tribune. Upgrading to Quaestor will carry over permanent great people <b>up to level %{level}</b>",
    RebornModalDesc:
-      "Your will start a new empire but you can take all the great people <b>from this run</b>, plus extra great people based on your <b>total empire value</b>",
+      "You will start a new empire but you can take all the great people <b>from this run</b>, plus extra great people based on your <b>total empire value</b>",
    OperationNotAllowedError: "This operation is not allowed",
    AccountLevelUpgradeConditionAny:
       "To upgrade your account, you only need to satisfy one of the following criteria:",
@@ -924,5 +924,5 @@ export const EN = {
    ChatHideLatestMessageDesc: "Replace the content of latest chat message with asterisks in the chat bar",
    BuildingColorMatchBuilding: "Copy Color From Building",
    BuildingColorMatchBuildingTooltip:
-      "Copy resource color from the building that produce this resource. If multiple buildings produce this resource, a random one will be selected",
+      "Copy resource color from the building that produces this resource. If multiple buildings produce this resource, a random one will be selected",
 };
